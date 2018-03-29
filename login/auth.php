@@ -1,5 +1,5 @@
 <?php
 function isAuthenticated() {
-	return $_SESSION['loggedIn'] !== false;
+	return $_SESSION['isAuthenticated'] === true;
 }
 ?>
